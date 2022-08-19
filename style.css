@@ -75,3 +75,8 @@ li {
   padding: 0;
   margin-left: 10px;
 }
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
