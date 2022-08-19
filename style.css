@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
@@ -33,17 +33,15 @@ p {
 
 .items a {
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  /* identical to box height, or 111% */
   display: flex;
   align-items: center;
   text-align: center;
-  /* Primary/B400 */
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .items {
@@ -58,19 +56,19 @@ li {
 
 .paragraph {
   margin-left: 10px;
-  text-decoration-color:skyblue ;
-  color: #7F8CFF;
-  font-family: 'Poppins';
+  text-decoration-color:#87ceeb;
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
 }
 
-.header{
+.header {
   font-size: 40px;
   font-style: bold;
 }
 
-.font_icons{
+.font_icons {
   display: flex;
   list-style: none;
   margin-right: 800px;
