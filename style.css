@@ -167,7 +167,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px; 
+  padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
 }
@@ -200,7 +200,7 @@ li {
   flex-direction: column;
   padding: 16px;
   gap: 12px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
 }
