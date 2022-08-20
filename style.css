@@ -90,6 +90,7 @@ li {
 }
 
 .grid-container {
+  display: grid;
   max-width: 400px;
   margin: auto;
 }
@@ -101,7 +102,7 @@ li {
   align-items: center;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 88px 24px;
+  margin: 44px 24px;
 }
 
 .container-image {
