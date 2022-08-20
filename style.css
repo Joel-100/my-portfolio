@@ -272,3 +272,13 @@ li {
   margin: 6px 0;
   padding: 9px 16px 10px 12px;
 }
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
