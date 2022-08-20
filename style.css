@@ -64,6 +64,14 @@ p {
   color: #6070ff;
 }
 
+.abt-self {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
 .items {
   display: flex;
   justify-content: space-between;
