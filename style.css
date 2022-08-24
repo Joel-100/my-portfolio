@@ -282,3 +282,95 @@ button:active {
   background-color: #2230d2;
   color: #fff;
 }
+/* contact-form */
+.info-head {
+  color: white;
+}
+.form-container {
+  max-width: 400px;
+  margin: auto; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  align-items: center;
+  background-color:  #6070ff;
+  padding-bottom: 20px;
+
+
+}
+.background {
+  background-color: #2230d2;
+}
+.form {
+ display: flex; 
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: center;
+ border: 1px solid red;
+ border-radius: 8px;
+}
+#enterName {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+  border-radius: 8px;
+  border-style: none;
+}
+#enterEmail {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+ 
+  
+}
+.text-area {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+  width: 327px;
+}
+.contact-button {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 30px;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 10px;
+
+
+}
+ 
+/* .form-button {
+  width: 100px;
+  height: 50px;
+  background-color: #7d73fc;
+  
+} */
+
+textarea {
+  width: 327px;
+  height: 148px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border-style: none;
+}
+.main-text {
+  width: 327px;
+}
+
+button {
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+width: 140px;
+height: 48px;
+margin-right: 195px;
+border-radius: 8px;
+border-style: none;
+
+
+}
