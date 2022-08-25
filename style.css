@@ -285,6 +285,7 @@ button:active {
 /* contact-form */
 .info-head {
   color: white;
+  text-align: center;
 }
 .form-container {
   max-width: 400px;
@@ -292,12 +293,15 @@ button:active {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 1px solid red;
   align-items: center;
   background-color:  #6070ff;
   padding-bottom: 20px;
-
-
+  background-image: url("images/contact-form-img.png");
+  /* line-height: 16px; */
+  background-repeat: no-repeat;
+  background-position: 108%;
+  background-size: contain;
+  border-radius: 60px 0 0 0;
 }
 .background {
   background-color: #2230d2;
@@ -307,7 +311,6 @@ button:active {
  flex-direction: column;
  flex-wrap: wrap;
  align-items: center;
- border: 1px solid red;
  border-radius: 8px;
 }
 #enterName {
@@ -340,6 +343,8 @@ input {
   width: 327px;
   height: 48px;
   margin-bottom: 10px;
+  border-radius: 8px;
+  border-style: none;
 
 
 }
@@ -357,9 +362,13 @@ textarea {
   margin-bottom: 15px;
   border-radius: 8px;
   border-style: none;
+  
 }
 .main-text {
   width: 327px;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
 }
 
 button {
@@ -371,6 +380,7 @@ height: 48px;
 margin-right: 195px;
 border-radius: 8px;
 border-style: none;
-
+color: #6070ff;
+font-size: 17px;
 
 }
