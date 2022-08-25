@@ -47,7 +47,7 @@ p {
 }
 
 .wrapper {
-  max-width: 400px;
+  max-width: 375px;
   margin: auto;
 }
 
@@ -79,7 +79,7 @@ ul {
 }
 
 li {
-  margin-right: 20px;
+  padding-right: 20px;
 }
 
 .paragraph {
@@ -112,7 +112,7 @@ li {
 
 .grid-container {
   display: grid;
-  max-width: 400px;
+  max-width: 375px;
   margin: auto;
 }
 
@@ -290,7 +290,7 @@ button:active {
 }
 
 .form-container {
-  max-width: 400px;
+  max-width: 375px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -300,7 +300,7 @@ button:active {
   padding-bottom: 20px;
   background-image: url("images/contact-form-img.png");
   background-repeat: no-repeat;
-  background-position: 108%;
+  background-position: 100%;
   background-size: contain;
   border-radius: 60px 0 0 0;
 }
@@ -311,10 +311,10 @@ button:active {
 
 .form {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   border-radius: 8px;
+  padding: 24px;
 }
 
 #enterName {
@@ -345,15 +345,15 @@ button:active {
 }
 
 input {
-  width: 327px;
+  width: 320px;
   height: 48px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-radius: 8px;
   border-style: none;
 }
 
 textarea {
-  width: 327px;
+  width: 320px;
   height: 148px;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -371,9 +371,7 @@ textarea {
   flex-direction: row;
   align-items: center;
   padding: 12px 16px;
-  width: 140px;
   height: 48px;
-  margin-right: 195px;
   border-radius: 8px;
   border-style: none;
   color: #6070ff;
