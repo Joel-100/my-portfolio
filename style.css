@@ -291,12 +291,12 @@ button:active {
 
 .form-container {
   max-width: 400px;
-  margin: auto; 
+  margin: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background-color:  #6070ff;
+  background-color: #6070ff;
   padding-bottom: 20px;
   background-image: url("images/contact-form-img.png");
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@ button:active {
 }
 
 .form {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
@@ -328,7 +328,7 @@ button:active {
 #enterEmail {
   background: #f0f0f2;
   border-top: 1px solid #c6c7cc;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .text-area {
@@ -367,7 +367,7 @@ textarea {
   padding: 20px 0;
 }
 
-button {
+.btn {
   flex-direction: row;
   align-items: center;
   padding: 12px 16px;
