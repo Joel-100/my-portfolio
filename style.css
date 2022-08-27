@@ -209,7 +209,7 @@ li {
 
 .see-project {
   padding: 0 0 16px 16px;
-  color:  #120ca6;
+  color: #120ca6;
 }
 
 .p-text {
@@ -379,6 +379,7 @@ textarea {
   color: #6070ff;
   font-size: 17px;
 }
+
 /* Media Query Section(Desktop Version) */
 @media screen and (min-width: 768px) {
   .mobile {
@@ -423,9 +424,9 @@ textarea {
     width: 920px;
   }
 
-  .head-part-text  {
+  .head-part-text {
     padding: 12px 260px 12px 260px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -435,7 +436,6 @@ textarea {
   .work-sec-card {
     flex-direction: row;
     margin: 71px 142px;
-    
   }
 
   .social_icons {
@@ -451,6 +451,7 @@ textarea {
     padding: 0 0 14px 260px;
     margin: 0;
   }
+
   .container-image {
     padding: 24px;
   }
@@ -476,16 +477,12 @@ textarea {
 
   .btn {
     height: 24px;
-    padding: 0;
+    padding: 0 8px 0 0;
   }
 
   .btn-container-flex {
     margin: 0;
     padding: 0 0 40px 0;
-  }
-
-  .btn {
-    padding: 0 8px 0 0;
   }
 
   .image-right {
@@ -498,16 +495,16 @@ textarea {
 
   .about-self1 {
     padding: 142px 0 0 142px;
-    width: 447px
+    width: 447px;
   }
-  
+
   .paragraph {
     padding: 0 0;
     margin: 0;
   }
 
   .about-h2 {
-    padding: 0 ;
+    padding: 0;
   }
 
   .about-text {
@@ -561,4 +558,3 @@ textarea {
     display: flex;
   }
 }
-
