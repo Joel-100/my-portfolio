@@ -7,7 +7,7 @@ First step in building my portfolio
 
 ## Built With
 
-- Major languages:HTML and CSS
+- Major languages: HTML and CSS
 
 ## Authors
 
