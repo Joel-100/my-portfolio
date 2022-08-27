@@ -20,11 +20,19 @@
           <div class="tools">
             <nav class="main-nav">
               <div class="items">
-                <a href="#">My Logo</a>
-                <div id="harmburger">
+                <a class="logo" href="#">My Logo</a>
+                <div class="mobile" id="harmburger">
                   <img alt="harmburger" src="images/harmburger_img.png" />
                 </div>
+                <div class="desktop">
+                  <ul class="nav-icons">
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
               </div>
+
               <div class="menu">
                 <a href="#" class="mainMenu"><i class=""></i></a>
               </div>
@@ -32,17 +40,22 @@
           </div>
         </header>
         <section class="head-part">
-          <h1>
-            I'm Joel <br />Glad to see<br />
+          <h1 class="mobile">
+            I'm Joel <br />
+            Glad to see<br />
             you!
           </h1>
-          <p>
+          <h2 class="head-h2 desktop">
+            I'm Joel <br />
+            Glad to see you!
+          </h2>
+          <p class="head-part-text">
             I'm a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don't hesitate to
             contact me.
           </p>
-          <h4 class="paragraph">LET'S CONNECT</h4>
+          <h4 class="head-h4">LET'S CONNECT</h4>
           <div class="social_icons">
             <ul class="font_icons">
               <li>
@@ -79,12 +92,11 @@
       <!-- Works Section 1-->
 
       <section class="grid-container">
-        <article class="box-layout">
+        <article class="work-sec-card">
             <img
               class="container-image"
               alt="tonic"
-              src="images/tonic-image.png"/>
-
+              src="images/tonic-desktop-img.png"/>
           <div class="card-details">
             <div class="card-title">
               <h3 class="title">Tonic</h3>
@@ -131,23 +143,17 @@
 
         <!-- Works section 2 -->
 
-        <article class="box-layout">
-
-            <img
-              class="container-image"
-              alt="tonic"
-              src="images/tonic-2img.png"
-            />
-
-          <div class="card-details">
+        <article class="work-sec-card">
+            
+          <div class="card-details image-right">
             <div class="card-title">
-              <h3 class="title">Tonic</h3>
+              <h3 class="title">Multi-Post stories</h3>
               <ul class="flex-items">
-                <li class="canopy">CANOPY</li>
+                <li class="canopy">FACEBOOK</li>
                 <li>
                   <img src="images/Counter.png" alt="counter" />
                 </li>
-                <li class="backend">Back End Dev</li>
+                <li class="backend">Full Stack Dev</li>
                 <li>
                   <img src="images/Counter.png" alt="counter" />
                 </li>
@@ -155,8 +161,8 @@
               </ul>
             </div>
             <p class="card-text">
-              A daily selection of privately personalised reads; no accounts or
-              sign-ups required
+              Experimental content creation feature that allows users to add an existing story 
+              over the course of a day without spamming their friends
             </p>
             <div>
               <ul class="btn-container-flex">
@@ -167,12 +173,17 @@
                 </li>
                 <li class="btn">
                   <div class="btn-lang">
+                    <span>Ruby on rails</span>
+                  </div>
+                </li>
+                <li class="btn">
+                  <div class="btn-lang">
                     <span>css</span>
                   </div>
                 </li>
                 <li class="btn">
                   <div class="btn-lang">
-                    <span>Javascript</span>
+                    <span>javascript</span>
                   </div>
                 </li>
               </ul>
@@ -181,35 +192,91 @@
               <button type="button" class="p-text">See Project</button>
             </div>
           </div>
+            <img
+              class="container-image"
+              alt="tonic"
+              src="images/multi-post-desktop-img.png"
+            />  
         </article>
 
         <!-- Works section 3     -->
+        <article class="work-sec-card">
+          <img
+            class="container-image"
+            alt="tonic"
+            src="images/facebook-360-desk-img.png"
+          />
+          
 
-        <article class="box-layout">
-            <img
-              class="container-image"
-              alt="tonic"
-              src="images/multi-p-stories.png"
-            />
+         <div class="card-details">
+          <div class="card-title">
+            <h3 class="title">Facebook 360</h3>
+            <ul class="flex-items">
+              <li class="canopy">FACEBOOK</li>
+              <li>
+                <img src="images/Counter.png" alt="counter" />
+              </li>
+              <li class="backend">Full Stack Dev</li>
+              <li>
+                <img src="images/Counter.png" alt="counter" />
+              </li>
+              <li class="year">2015</li>
+            </ul>
+          </div>
+          <p class="card-text">
+            Exploring the future of media in Facebooks first Virtual Reality app:a place
+             to discover and enjoy 360 photos and videos on Gear VR
+          </p>
+          <div>
+            <ul class="btn-container-flex">
+              <li class="btn">
+                <div class="btn-lang">
+                  <span>html</span>
+                </div>
+              </li>
+              <li class="btn">
+                <div class="btn-lang">
+                  <span>Ruby on rails</span>
+                </div>
+              </li>
+              <li class="btn">
+                <div class="btn-lang">
+                  <span>css</span>
+                </div>
+              </li>
+              <li class="btn">
+                <div class="btn-lang">
+                  <span>javascript</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="see-project">
+            <button type="button" class="p-text">See Project</button>
+          </div>
+        </div> 
+      </article>
+        <!-- Works section 4     -->
 
-          <div class="card-details">
+        <article class="work-sec-card">
+          <div class="card-details image-right">
             <div class="card-title">
-              <h3 class="title">Tonic</h3>
+              <h3 class="title">Uber Navigation</h3>
               <ul class="flex-items">
-                <li class="canopy">CANOPY</li>
+                <li class="canopy">Uber</li>
                 <li>
                   <img src="images/Counter.png" alt="counter" />
                 </li>
-                <li class="backend">Back End Dev</li>
+                <li class="backend">Lead Developer</li>
                 <li>
                   <img src="images/Counter.png" alt="counter" />
                 </li>
-                <li class="year">2015</li>
+                <li class="year">2018</li>
               </ul>
             </div>
             <p class="card-text">
-              A daily selection of privately personalised reads; no accounts or
-              sign-ups required
+              A smart assistant to make driving more safe,efficient and flex-column
+              by unlocking your most expensive computer:your car
             </p>
             <div>
               <ul class="btn-container-flex">
@@ -220,54 +287,7 @@
                 </li>
                 <li class="btn">
                   <div class="btn-lang">
-                    <span>css</span>
-                  </div>
-                </li>
-                <li class="btn">
-                  <div class="btn-lang">
-                    <span>Javascript</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="see-project">
-              <button type="button" class="p-text">See Project</button>
-            </div>
-          </div>
-        </article>
-
-        <!-- Works section 3     -->
-
-        <article class="box-layout">
-            <img
-              class="container-image"
-              alt="tonic"
-              src="images/mp-stories-img.png"
-            />
-          <div class="card-details">
-            <div class="card-title">
-              <h3 class="title">Tonic</h3>
-              <ul class="flex-items">
-                <li class="canopy">CANOPY</li>
-                <li>
-                  <img src="images/Counter.png" alt="counter" />
-                </li>
-                <li class="backend">Back End Dev</li>
-                <li>
-                  <img src="images/Counter.png" alt="counter" />
-                </li>
-                <li class="year">2015</li>
-              </ul>
-            </div>
-            <p class="card-text">
-              A daily selection of privately personalised reads; no accounts or
-              sign-ups required
-            </p>
-            <div>
-              <ul class="btn-container-flex">
-                <li class="btn">
-                  <div class="btn-lang">
-                    <span>html</span>
+                    <span>Ruby on rails</span>
                   </div>
                 </li>
                 <li class="btn">
@@ -277,7 +297,7 @@
                 </li>
                 <li class="btn">
                   <div class="btn-lang">
-                    <span>Javascript</span>
+                    <span>javascript</span>
                   </div>
                 </li>
               </ul>
@@ -286,23 +306,30 @@
               <button type="button" class="p-text">See Project</button>
             </div>
           </div>
-        </article>
-      </section>
 
+   
+      <img
+        class="container-image"
+        alt="tonic"
+        src="images/uber-navigation-desk-img.png" 
+        />
+
+      </article>
       <!-- About myself  -->
       <div class="wrapper">
         <section class="about-me">
-          <h2>About<br />Myself</h2>
-          <p>
+          <div class="about-self1">
+          <h2 class="about-h2">About<br />Myself</h2>
+          <p class="about-text">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
 
-          <h4 class="paragraph">LET'S CONNECT</h4>
-          <div class="social_icons">
-            <ul class="font_icons">
+          <h4 class="head-h4 paragraph">LET'S CONNECT</h4>
+          <div class="social_icons about-si">
+            <ul class="font_icons about-sm">
               <li>
                 <a href="#">
                   <img alt="twitter" src="images/twitter-icon.png" />
@@ -330,13 +357,15 @@
                 </a>
               </li>
             </ul>
-            <div class="see-project get-resume">
+            <div class="see-project get-resume about-button">
               <button type="button" class="p-text">Get my resume</button>
             </div>
           </div>
+          </div>
+          <div class="about-self2">
           <ul class="abt-self">
             <li class="arrow1">
-              <p>Languages</p>
+              <p class="about-lang">Languages</p>
               <img alt="arr1" src="images/arrow-img.png" />
             </li>
             <li class="code-icons">
@@ -356,16 +385,18 @@
               </ul>
             </li>
             <li class="arrow1">
-              <p>Frameworks</p>
+              <p class="about-lang">Frameworks</p>
               <img alt="arr2" src="images/side-arrow.png" />
             </li>
             <li class="arrow1">
-              <p>Skills</p>
+              <p class="about-lang">Skills</p>
               <img alt="arr3" src="images/side-arrow.png" />
             </li>
           </ul>
+          </div>
         </section>
       </div>
+    
     </main>
     <!-- contact-form -->
     <section>
@@ -389,7 +420,7 @@
             <input type="text" name="name" maxlength="30" placeholder="Name" />
             <input type="email" name="email" maxlength="30" placeholder="Email" />
             <textarea name="message" maxlength="500" placeholder="Write your message here..."></textarea>
-            <button type="submit" class="btn">
+            <button type="submit" class="btn about-get">
               <span>Get in touch</span>
             </button>  
           </form>
