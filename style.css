@@ -557,4 +557,12 @@ textarea {
     padding: 28px 19px;
     display: flex;
   }
+
+  .anime {
+    transition: 0.9s ease-in-out;
+  }
+
+  .anime.go:hover {
+    transform: translate(20px, 0);
+  }
 }
