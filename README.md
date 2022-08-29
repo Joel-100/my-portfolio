@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+
 # Project 1(set up and mobile first)
 
 > Description of the project.
@@ -7,8 +8,9 @@ First step in building my portfolio
 
 ## Built With
 
-- Major languages: HTML and CSS
 
+- Major languages: HTML and CSS
+[Live Demo Link](https://joel-100.github.io/my-portfolio/)
 ## Authors
 
 👤 **Joel Kugonza**
