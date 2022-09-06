@@ -103,14 +103,14 @@ li {
 }
 
 #mobile-x-icon {
-  padding: 63px 0 0 327px;
+  margin: 40px 38px 0 auto;
 }
 
 .mobile-list li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 35px;
   line-height: 44px;
   display: flex;
   flex-direction: column;
@@ -454,7 +454,9 @@ textarea {
 
   .mobile-menu-container {
     display: none;
+    visibility: hidden;
   }
+  
 
   .head-part {
     background-image: url(images/background-image-bg.png);
