@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background: #e5e5e5;
+  box-sizing: border-box;
 }
 
 .desktop {
@@ -86,6 +87,41 @@ li {
   padding-right: 20px;
 }
 
+#switch-display {
+  display: none;
+}
+
+.mobile-items {
+  background-color: rgb(32 58 254 / 65%);
+  backdrop-filter: blur(7px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#mobile-x-icon {
+  margin: 40px 38px 0 auto;
+}
+
+.mobile-list li {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 18px 0;
+}
+
+.mobile-list li a {
+  color: white;
+  text-decoration: none;
+}
+
 .head-h4 {
   text-decoration-color: #87ceeb;
   color: #7f8cff;
@@ -115,7 +151,6 @@ li {
 
 .grid-container {
   display: grid;
-  margin: auto;
 }
 
 .work-sec-card {
@@ -128,9 +163,18 @@ li {
   margin: 44px 24px;
 }
 
+.order0 {
+  order: 0;
+}
+
+.order1 {
+  order: 1;
+}
+
 .container-image {
   border-radius: 8px;
   padding: 16px 16px 12px 16px;
+  width: 90%;
 }
 
 .title {
@@ -406,6 +450,11 @@ textarea {
 
   .items {
     padding: 26px 155px;
+  }
+
+  .mobile-menu-container {
+    display: none;
+    visibility: hidden;
   }
 
   .head-part {
