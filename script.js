@@ -29,10 +29,11 @@ const cards = [
     title: 'Tonic',
     imageM: 'images/tonic-desktop-img.png',
     imageD: 'images/tonic-desktop-img.png',
-    heading2: ['Canopy', 'Back End Dev', '2015]',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
     cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
   },
+  // Work Section 2
   {
     id: 2,
     title: 'Multi-Post Stories',
@@ -120,10 +121,8 @@ const modalCard = [
     imageM: 'images/facebook-360-desk-img.png',
     imageD: 'images/tonic-desktop-img.png',
     heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescriptionD:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript',
-    cardDescriptionM:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ",
+    cardDescriptionD: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript',
+    cardDescriptionM: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ',
     languagesD: ['github', 'ruby', 'Bootstrap'],
     languagesM: ['html', 'css', 'javascript'],
     linkLive: 'https://github.com/Joel-100/my-portfolio/tree/deploy-web',
