@@ -509,7 +509,6 @@ textarea {
   }
 }
 
-
 /* Media Query Section(Desktop Version) */
 @media screen and (min-width: 768px) {
   .grid-container:nth-child(odd) .work-sec-card {
@@ -619,6 +618,7 @@ textarea {
     padding-top: 24px;
     padding-left: 24px;
   }
+
   .mobile {
     display: none;
   }
@@ -820,5 +820,3 @@ textarea {
   font-size: 15px;
   font-family: "poppins", sans-serif !important;
 }
-
-

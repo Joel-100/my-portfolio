@@ -22,52 +22,52 @@ function enableScroll() {
   window.onscroll = '';
 }
 
-//Work Section 1
+// Work Section 1
 const cards = [
   {
     id: 1,
-    title: "Tonic",
-    imageM: "images/tonic-desktop-img.png",
-    imageD: "images/tonic-desktop-img.png",
-    heading2: ["Canopy", "Back End Dev", "2015"],
-    cardDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    languages: ["html", "css", "javascript"],
+    title: 'Tonic',
+    imageM: 'images/tonic-desktop-img.png',
+    imageD: 'images/tonic-desktop-img.png',
+    heading2: ['Canopy', 'Back End Dev', '2015]',
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.,'
+    languages: ['html', 'css', 'javascript'],
   },
-  //Work Section 2
+  
+  // Work Section 2
   {
     id: 2,
-    title: "Multi-Post Stories",
-    imageM: "images/multi-post-desktop-img.png",
-    imageD: "images/multi-post-desktop-img.png",
-    heading2: ["Canopy", "Back End Dev", "2015"],
-    cardDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    languages: ["html", "css", "javascript"],
+    title: 'Multi-Post Stories',
+    imageM: 'images/multi-post-desktop-img.png',
+    imageD: 'images/multi-post-desktop-img.png',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
   },
   //Work Section 3
   {
     id: 3,
-    title: "Facebook 360",
-    imageM: "images/facebook-360-desk-img.png",
-    imageD: "images/facebook-360-desk-img.png",
-    heading2: ["Canopy", "Back End Dev", "2015"],
-    cardDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    languages: ["html", "css", "javascript"],
+    title: 'Facebook 360',
+    imageM: 'images/facebook-360-desk-img.png',
+    imageD: 'images/facebook-360-desk-img.png',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
   },
   //Work Section 4
   {
     id: 4,
-    title: "Uber Navigation",
-    imageM: "images/uber-navigation-desk-img.png",
-    imageD: "images/uber-navigation-desk-img.png",
-    heading2: ["Canopy", "Back End Dev", "2015"],
-    cardDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    languages: ["html", "css", "javascript"],
+    title: 'Uber Navigation',
+    imageM: 'images/uber-navigation-desk-img.png',
+    imageD: 'images/uber-navigation-desk-img.png',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
   },
 ];
 
 const works_card = cards
 .map((card, index) => `
-
 
 <section class="grid-container ${index}" id="portfolio">
         <article class="work-sec-card">
@@ -96,7 +96,7 @@ const works_card = cards
             <div>
               <ul class="btn-container-flex">
               ${card.languages
-                .map((lang) => `            
+        .map((lang) => `            
                 <li class="btn">
                   <div class="btn-lang">
                     <span>${lang}</span>
@@ -106,31 +106,31 @@ const works_card = cards
               </ul>
             </div>
             <div class="see-project">
-              <button onclick="showPop(${card.id })" type="button" class="p-text btn-onclick" id="see-project-id">See Project</button>
+              <button onclick="showPop(${card.id})" type="button" class="p-text btn-onclick" id="see-project-id">See Project</button>
             </div>
           </div>
         </article>
         </section>
-`
-)
+        `
+);
 
-const worksCard = document.querySelector(".grid-container");
+const worksCard = document.querySelector('.grid-container');
 worksCard.innerHTML += works_card;
 const modalCard = [
   {
     id: 1,
-    title: "Tonic",
-    imageM: "images/facebook-360-desk-img.png",
-    imageD: "images/tonic-desktop-img.png",
-    heading2: ["Canopy", "Back End Dev", "2015"],
+    title: 'Tonic',
+    imageM: 'images/facebook-360-desk-img.png',
+    imageD: 'images/tonic-desktop-img.png',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
     cardDescriptionD:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript',
     cardDescriptionM:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ",
-    languagesD: ["github", "ruby", "Bootstrap"],
-    languagesM: ["html", "css", "javascript"],
-    linkLive: "https://github.com/Joel-100/my-portfolio/tree/deploy-web",
-    linkSource: "https://github.com/Joel-100",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ",
+    languagesD: ['github', 'ruby', 'Bootstrap'],
+    languagesM: ['html', 'css', 'javascript'],
+    linkLive: 'https://github.com/Joel-100/my-portfolio/tree/deploy-web',
+    linkSource: 'https://github.com/Joel-100',
   },
 ];
 
