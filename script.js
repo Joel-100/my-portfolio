@@ -7,7 +7,14 @@ function clickToSwitch() {
     switchD.style.display = 'block';
   }
 }
-
+const body = document.querySelector('.head-part');
+function disableScroll() {
+  const xPos = window.scrollX;
+  const yPos = window.scrollY;
+  window.onscroll = () => {
+    window.scroll(xPos, yPos);
+  };
+}
 
 function enableScroll() {
   window.onscroll = '';
