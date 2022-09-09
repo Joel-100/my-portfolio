@@ -33,7 +33,6 @@ const cards = [
     cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
   },
-  // Work Section
   {
     id: 2,
     title: 'Multi-Post Stories',
