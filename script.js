@@ -9,7 +9,6 @@ function clickToSwitch() {
 }
 
 function disableScroll() {
-  worksBody.style.filter = 'blur(7px)';
   const xPos = window.scrollX;
   const yPos = window.scrollY;
   window.onscroll = () => {
@@ -18,7 +17,6 @@ function disableScroll() {
 }
 
 function enableScroll() {
-  worksBody.style.filter = 'blur(0px)';
   window.onscroll = '';
 }
 
@@ -43,7 +41,7 @@ const cards = [
     cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
   },
-  //Work Section 3
+  // Work Section 3
   {
     id: 3,
     title: 'Facebook 360',
@@ -53,7 +51,7 @@ const cards = [
     cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
   },
-  //Work Section 4
+  // Work Section 4
   {
     id: 4,
     title: 'Uber Navigation',
