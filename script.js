@@ -30,7 +30,7 @@ const cards = [
     imageM: 'images/tonic-desktop-img.png',
     imageD: 'images/tonic-desktop-img.png',
     heading2: ['Canopy', 'Back End Dev', '2015]',
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.,'
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
   },
   
@@ -68,7 +68,6 @@ const cards = [
 
 const works_card = cards
 .map((card, index) => `
-
 <section class="grid-container ${index}" id="portfolio">
         <article class="work-sec-card">
             <img
@@ -133,13 +132,10 @@ const modalCard = [
     linkSource: 'https://github.com/Joel-100',
   },
 ];
-
 const modalCardDisplay = modalCard
   .map(
     (modeCard) => `
-
 <div class="card-portfolio-1">
-
             <li class="pop-close"><i class="fa fa-times"></i></li>
                 <h2 class="title">${modeCard.title}</h2>
                 <ul class="flex-items">

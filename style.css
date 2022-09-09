@@ -511,7 +511,12 @@ textarea {
 
 /* Media Query Section(Desktop Version) */
 @media screen and (min-width: 768px) {
-  .grid-container:nth-child(odd) .work-sec-card {
+  .work-sec-card {
+    flex-direction: row;
+    margin: 71px 142px;
+  }
+  
+  .grid-container:nth-child(odd) .work-sec-car {
     flex-direction: row-reverse;
   }
 
@@ -673,11 +678,6 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-  }
-
-  .work-sec-card {
-    flex-direction: row;
-    margin: 71px 142px;
   }
 
   .social_icons {
