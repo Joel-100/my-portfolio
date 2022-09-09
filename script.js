@@ -7,7 +7,7 @@ function clickToSwitch() {
     switchD.style.display = 'block';
   }
 }
-
+const body = document.querySelector('.head-part');
 function disableScroll() {
   const xPos = window.scrollX;
   const yPos = window.scrollY;
@@ -63,8 +63,8 @@ const cards = [
   },
 ];
 
-const works_card = cards
-.map((card, index) => `
+const worksCard = cards
+  .map((card, index) => `
 <section class="grid-container ${index}" id="portfolio">
         <article class="work-sec-card">
             <img
@@ -92,7 +92,7 @@ const works_card = cards
             <div>
               <ul class="btn-container-flex">
               ${card.languages
-        .map((lang) => `            
+    .map((lang) => `            
                 <li class="btn">
                   <div class="btn-lang">
                     <span>${lang}</span>
@@ -107,11 +107,10 @@ const works_card = cards
           </div>
         </article>
         </section>
-        `
-);
+        `);
 
-const worksCard = document.querySelector('.grid-container');
-worksCard.innerHTML += works_card;
+const worksCardHtml = document.querySelector('.grid-container');
+worksCardHtml.innerHTML += worksCard;
 const modalCard = [
   {
     id: 1,
