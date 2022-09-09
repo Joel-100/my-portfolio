@@ -32,7 +32,7 @@ const cards = [
     heading2: ['Canopy', 'Back End Dev', '2015]',
     cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
-  },
+  }
   
   // Work Section 2
   {
