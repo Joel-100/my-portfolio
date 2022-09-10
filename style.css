@@ -4,6 +4,10 @@ body {
   box-sizing: border-box;
 }
 
+.error-message {
+  color: red;
+}
+
 .desktop {
   display: none;
 }
@@ -439,7 +443,7 @@ textarea {
     bottom: 0;
     right: 0;
     left: 0;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .card-portfolio-1 span {
@@ -462,6 +466,10 @@ textarea {
 
   .forD-1 {
     display: none;
+    /* margin-left: 100%; */
+    /* padding: 0 0 24px 24px; */
+    position: relative;
+    right: 100px;
   }
 
   .modal-2 {
@@ -503,7 +511,7 @@ textarea {
     color: #0011a8;
     border: 1px solid #0011a8;
     border-radius: 8px;
-    padding: 16px 32px;
+    padding: 8px 16px;
     font-size: 15px;
     text-align: center;
   }
@@ -600,6 +608,7 @@ textarea {
 
   .forM-1 {
     display: none;
+    align-items: center;
   }
 
   .card-portfolio-1 {
@@ -810,13 +819,17 @@ textarea {
 }
 
 .works-badge {
-  text-align: start;
-  padding: 0.4rem 1.2rem;
-  background: #ebebff;
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
   list-style: none;
-  display: inline;
-  color: #0011a8;
-  font-size: 15px;
+  padding: 0 36px;
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 6px 0;
+  padding: 9px 16px 10px 12px;
+  font-size: 12px;
   font-family: "poppins", sans-serif !important;
+  font-weight: 200;
 }
