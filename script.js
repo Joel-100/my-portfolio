@@ -20,7 +20,6 @@ function enableScroll() {
   window.onscroll = '';
 }
 
-// Work Section 1
 const cards = [
   {
     id: 1,
