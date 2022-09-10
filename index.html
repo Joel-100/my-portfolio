@@ -220,13 +220,15 @@
             action="https://formspree.io/f/xknegrdk"
             method="post"
             class="form"
+            id="contact-form"
           >
             <input type="text" name="name" maxlength="30" placeholder="Name" />
-            <input type="email" name="email" maxlength="30" placeholder="Email" />
+            <input type="email" class="email" name="email" maxlength="30" placeholder="Email" />
             <textarea name="message" maxlength="500" placeholder="Write your message here..."></textarea>
             <button type="submit" class="btn about-get">
               <span>Get in touch</span>
-            </button>  
+            </button>
+            <p class="errorMSG"></p>  
           </form>
         </div> 
       </section>
