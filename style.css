@@ -821,7 +821,6 @@ textarea {
   flex-direction: column;
   list-style: none;
   padding: 0 36px;
-  display: flex;
   align-items: center;
   background: #f7f7f9;
   border-radius: 8px;
