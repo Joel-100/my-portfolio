@@ -205,16 +205,6 @@ popClose.addEventListener('click', () => {
 const email = document.querySelector('.email');
 const submit = document.querySelector('.about-get');
 const error = document.querySelector('.errorMSG');
-const formVal = () => {
-  submit.addEventListener('click', (event) => {
-    if (email.value !== email.value.toLowerCase()) {
-      event.preventDefault();
-      error.innerHTML = `Please email must be in lower case,try again!`;
-    } else {
-      error.innerHTML = '';
-    }
-  });
-};
-formVal()
+
 
 
