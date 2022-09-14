@@ -13,9 +13,19 @@ First step in building my portfolio
 [Live Demo Link](https://joel-100.github.io/my-portfolio/)
 ## Authors
 
+👤 **Author1**
+
 👤 **Joel Kugonza**
 
 - GitHub: [@Joel-100](https://github.com/Joel-100)
+
+👤 **Author2**
+
+👤 **Is-haq Adnan Olamilekan**
+
+- GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
+- Twitter: [@AdnanIs71755510](https://twitter.com/AdnanIs71755510)
+- LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
 
 ## 🤝 Contributing
 

@@ -4,6 +4,10 @@ body {
   box-sizing: border-box;
 }
 
+.error-message {
+  color: red;
+}
+
 .desktop {
   display: none;
 }
@@ -13,7 +17,7 @@ body {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -24,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -35,7 +39,7 @@ h2 {
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -58,7 +62,7 @@ p {
 
 .logo {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -107,7 +111,7 @@ li {
 }
 
 .mobile-list li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 35px;
@@ -125,7 +129,7 @@ li {
 .head-h4 {
   text-decoration-color: #87ceeb;
   color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
@@ -178,7 +182,7 @@ li {
 }
 
 .title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -191,7 +195,7 @@ li {
 .flex-items {
   list-style: none;
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -201,7 +205,7 @@ li {
 }
 
 .card-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -211,7 +215,7 @@ li {
 
 .canopy {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -242,7 +246,7 @@ li {
 }
 
 .btn-lang span {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -257,7 +261,7 @@ li {
 }
 
 .p-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -292,7 +296,7 @@ li {
 }
 
 .arrow1 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -439,7 +443,7 @@ textarea {
     bottom: 0;
     right: 0;
     left: 0;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .card-portfolio-1 span {
@@ -460,8 +464,22 @@ textarea {
     width: 292px;
   }
 
+  h2.title {
+    margin-left: -24px;
+  }
+
+  ul.flex-items {
+    margin-left: -20px;
+  }
+
+  p.forM-1 {
+    margin-left: -24px !important;
+  }
+
   .forD-1 {
     display: none;
+    position: relative;
+    right: 100px;
   }
 
   .modal-2 {
@@ -503,7 +521,7 @@ textarea {
     color: #0011a8;
     border: 1px solid #0011a8;
     border-radius: 8px;
-    padding: 16px 32px;
+    padding: 8px 16px;
     font-size: 15px;
     text-align: center;
   }
@@ -593,13 +611,18 @@ textarea {
   }
 
   .forD-1 {
-    align-items: center;
+    align-items: left;
     margin-right: 20px;
     width: 100%;
   }
 
+  p.forD-1 {
+    margin-left: -30px;
+  }
+
   .forM-1 {
     display: none;
+    align-items: center;
   }
 
   .card-portfolio-1 {
@@ -638,7 +661,7 @@ textarea {
 
   .nav-icons li a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -673,7 +696,7 @@ textarea {
 
   .head-part-text {
     padding: 12px 260px 12px 260px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -810,13 +833,15 @@ textarea {
 }
 
 .works-badge {
-  text-align: start;
-  padding: 0.4rem 1.2rem;
-  background: #ebebff;
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
   list-style: none;
-  display: inline;
-  color: #0011a8;
-  font-size: 15px;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 6px 0;
+  padding: 9px 16px 10px 12px;
+  font-size: 12px;
   font-family: "poppins", sans-serif !important;
+  font-weight: 200;
 }
