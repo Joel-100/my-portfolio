@@ -464,6 +464,18 @@ textarea {
     width: 292px;
   }
 
+  h2.title {
+    margin-left: -24px;
+  }
+
+  ul.flex-items {
+    margin-left: -20px;
+  }
+
+  p.forM-1 {
+    margin-left: -24px !important;
+  }
+
   .forD-1 {
     display: none;
     position: relative;
@@ -599,9 +611,13 @@ textarea {
   }
 
   .forD-1 {
-    align-items: center;
+    align-items: left;
     margin-right: 20px;
     width: 100%;
+  }
+
+  p.forD-1 {
+    margin-left: -30px;
   }
 
   .forM-1 {
