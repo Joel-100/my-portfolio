@@ -25,42 +25,50 @@ function enableScroll() {
 const cards = [
   {
     id: 1,
-    title: 'Tonic',
-    imageM: 'images/tonic-desktop-img.png',
-    imageD: 'images/tonic-desktop-img.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    title: 'Africa Tech Week',
+    imageM: 'images/Africa tech week img.PNG',
+    imageD: 'images/Africa tech week img.PNG',
+    heading2: ['Microverse', 'Front End Dev', '2023'],
+    cardDescription: 'The goal of the Microverse Capstone Project for Module I: (The Portal) is to create a website with an about page and a home page for an online conference event. Built with JavaScript, CSS, and HTML..',
     languages: ['html', 'css', 'javascript'],
+    linkLive: 'https://github.com/Joel-100/my-portfolio/tree/deploy-web',
+    linkSource: 'https://github.com/Joel-100',
   },
   // Work Section 2
   {
     id: 2,
-    title: 'Multi-Post Stories',
-    imageM: 'images/multi-post-desktop-img.png',
-    imageD: 'images/multi-post-desktop-img.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    title: 'Fast Food API',
+    imageM: 'images/fast food img.jpg',
+    imageD: 'images/fast food img.jpg',
+    heading2: ['Microverse', 'Front End Dev', '2023'],
+    cardDescription: 'This is based on a web app that takes up the data from the API and displays it along with counters for a number of likes and reviews..',
     languages: ['html', 'css', 'javascript'],
+    linkLive: 'https://github.com/Joel-100/my-portfolio/tree/deploy-web',
+    linkSource: 'https://github.com/Joel-100',
   },
   // Work Section 3
   {
     id: 3,
-    title: 'Facebook 360',
-    imageM: 'images/facebook-360-desk-img.png',
-    imageD: 'images/facebook-360-desk-img.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    title: 'Math Magicians',
+    imageM: 'images/math image.jpg',
+    imageD: 'images/math image.jpg',
+    heading2: ['Microverse', 'Front End Dev', '2023'],
+    cardDescription: 'A website for math geeks where i created 3 pages including home, calculator, and quote. I also added my own styles to improve the look and feel of the website.',
     languages: ['html', 'css', 'javascript'],
+    linkLive: 'https://github.com/Joel-100/my-portfolio/tree/deploy-web',
+    linkSource: 'https://github.com/Joel-100',
   },
   // Work Section 4
   {
     id: 4,
-    title: 'Uber Navigation',
-    imageM: 'images/uber-navigation-desk-img.png',
-    imageD: 'images/uber-navigation-desk-img.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+    title: 'Space Travelers Hub',
+    imageM: 'images/space image.jpg',
+    imageD: 'images/space image,jpg',
+    heading2: ['Microverse', 'Front End Dev', '2023'],
+    cardDescription: 'A website that consumes the SpaceX API and allows you to reserve rockets and join missions.',
+    languages: ['html', 'css', 'javascript', 'React'],
+    linkLive: 'https://github.com/Joel-100/my-portfolio/tree/deploy-web',
+    linkSource: 'https://github.com/Joel-100',
   },
 ];
 
@@ -103,7 +111,8 @@ const worksCard = cards
               </ul>
             </div>
             <div class="see-project">
-              <button onclick="showPop(${card.id})" type="button" class="p-text btn-onclick" id="see-project-id">See Project</button>
+            <a href="https://github.com/Joel-100/my-portfolio/tree/deploy-web"> Github </a> </br>
+            <a href="https://github.com/Joel-100"> Live </a>
             </div>
           </div>
         </article>
@@ -123,8 +132,6 @@ const modalCard = [
     cardDescriptionM: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     languagesD: ['github', 'ruby', 'Bootstrap'],
     languagesM: ['html', 'css', 'javascript'],
-    linkLive: 'https://github.com/Joel-100/my-portfolio/tree/deploy-web',
-    linkSource: 'https://github.com/Joel-100',
   },
 ];
 const modalCardDisplay = modalCard
